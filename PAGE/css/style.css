@@ -1,0 +1,146 @@
+@import url(inicio.css);
+
+
+*{
+	margin: 0px;
+	padding: auto;
+	box-sizing: border-box;
+}
+
+body{
+	background: #303152;
+
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	border: 0px;
+	background: #000000;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	
+}
+
+#logo{
+
+ width: 900px;
+ height: 100px;
+ border: 1px solid #000;
+ float: left;
+
+
+}
+
+.titulo{
+	font-size: 65px;
+	color: #ffffff
+}
+
+.subtitulo{
+	font-size: 20px;
+	margin-top: -10px;
+	color: #ffffff;
+}
+
+.menu{
+	width: 650px;
+	height: 45px;
+	border: 1px solid #ccc;
+    float: right;
+    margin-top: 0px;
+    background: #000000;
+}
+
+.menu a{
+	display: block;
+
+	
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 12px;
+	border: 0px solid #ccc;
+	color: #FFFFFF;
+}
+
+.menu ul li a:hover{
+	background: #ffff00;
+	 color: #0000ff;
+	transition: background 1s, color 1s;
+	margin-top: 5px;
+}
+
+#tecno{
+	margin-top: 55px;
+	width: 900px;
+	height: 250;
+}
+
+#categorias{
+	width: 900px;
+	height: 600; overflow: hidden;
+	border: 0px solid;
+	margin-top: 10px;
+}
+
+.uno{
+	width: 290px;
+	height: 400px;
+	border: 0px solid;
+	float: left;
+	background: #f0f8ff;
+}
+
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+
+#info{
+	width: 0px;
+	height: auto; overflow: hidden;
+	border: 1px solid #c0c0c0;
+
+}
+
+#footer {
+	width: 25px;
+	height: 25px;
+}
+
+.contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.copy{
+	font-size: 20px;
+
+}
+
+
+.sociales{
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.v{
+	height: 15px;
+	width: 25px;
+	border: 1px solid black;
+}
